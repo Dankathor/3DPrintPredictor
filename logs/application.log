@@ -51,3 +51,8 @@
 2026-08-10 16:56:28  INFO      Application started / page reloaded
 2026-08-10 16:57:39  INFO      Application started / page reloaded
 2026-08-10 16:58:51  INFO      Application started / page reloaded
+2026-08-10 18:37:45  INFO      Application session started
+2026-08-10 18:39:16  INFO      Model loaded successfully from models\roughness_model.joblib
+2026-08-10 18:39:18  INFO      Model loaded successfully from models\roughness_model.joblib
+2026-08-10 18:39:18  INFO      Prediction request: printer=closed, material=ABS, layer=0.2mm, infill=50%, pattern=concentric, speed=50mm/s
+2026-08-10 18:39:18  INFO      Prediction success: printer=closed, material=ABS, layer=0.2mm, infill=50%, pattern=concentric, speed=50mm/s -> roughness=6.5397 µm (target=6.0300 µm)

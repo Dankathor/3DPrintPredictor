@@ -8,7 +8,6 @@ dataset into memory each time.
 
 import pathlib
 import sqlite3
-
 import pandas as pd
 
 CLEANED_PATH = pathlib.Path("data/cleaned/cleaned_3d_printing_data.csv")

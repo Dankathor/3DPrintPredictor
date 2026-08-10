@@ -1,0 +1,53 @@
+2026-08-10 16:10:41  INFO      Application started / page reloaded
+2026-08-10 16:11:26  INFO      Application started / page reloaded
+2026-08-10 16:11:45  INFO      Application started / page reloaded
+2026-08-10 16:24:18  INFO      Application started / page reloaded
+2026-08-10 16:24:24  INFO      Application started / page reloaded
+2026-08-10 16:24:25  INFO      Application started / page reloaded
+2026-08-10 16:24:25  INFO      Model loaded successfully from models\roughness_model.joblib
+2026-08-10 16:24:29  INFO      Application started / page reloaded
+2026-08-10 16:24:37  INFO      Application started / page reloaded
+2026-08-10 16:40:56  INFO      Application started / page reloaded
+2026-08-10 16:42:08  INFO      Application started / page reloaded
+2026-08-10 16:42:13  INFO      Application started / page reloaded
+2026-08-10 16:42:13  INFO      Model loaded successfully from models\roughness_model.joblib
+2026-08-10 16:42:15  INFO      Application started / page reloaded
+2026-08-10 16:42:23  INFO      Application started / page reloaded
+2026-08-10 16:42:39  INFO      Application started / page reloaded
+2026-08-10 16:45:06  INFO      Application started / page reloaded
+2026-08-10 16:47:39  INFO      Application started / page reloaded
+2026-08-10 16:47:44  INFO      Application started / page reloaded
+2026-08-10 16:50:53  INFO      Application started / page reloaded
+2026-08-10 16:50:53  INFO      Model loaded successfully from models\roughness_model.joblib
+2026-08-10 16:51:04  INFO      Application started / page reloaded
+2026-08-10 16:51:06  INFO      Application started / page reloaded
+2026-08-10 16:51:18  INFO      Application started / page reloaded
+2026-08-10 16:51:26  INFO      Application started / page reloaded
+2026-08-10 16:51:28  INFO      Application started / page reloaded
+2026-08-10 16:51:39  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:40  INFO      Application started / page reloaded
+2026-08-10 16:51:41  INFO      Application started / page reloaded
+2026-08-10 16:51:41  INFO      Application started / page reloaded
+2026-08-10 16:51:41  INFO      Application started / page reloaded
+2026-08-10 16:51:42  INFO      Application started / page reloaded
+2026-08-10 16:51:42  INFO      Prediction request: printer=closed, material=PLA+, layer=0.1mm, infill=20%, pattern=grid, speed=30mm/s
+2026-08-10 16:51:42  INFO      Prediction success: printer=closed, material=PLA+, layer=0.1mm, infill=20%, pattern=grid, speed=30mm/s → roughness=2.4698 µm (target=5.0000 µm)
+2026-08-10 16:53:10  INFO      Application started / page reloaded
+2026-08-10 16:53:13  INFO      Application started / page reloaded
+2026-08-10 16:53:14  INFO      Application started / page reloaded
+2026-08-10 16:53:17  INFO      Application started / page reloaded
+2026-08-10 16:53:17  INFO      Prediction request: printer=closed, material=PLA+, layer=0.2mm, infill=80%, pattern=grid, speed=50mm/s
+2026-08-10 16:53:17  INFO      Prediction success: printer=closed, material=PLA+, layer=0.2mm, infill=80%, pattern=grid, speed=50mm/s → roughness=4.8294 µm (target=5.0000 µm)
+2026-08-10 16:53:25  INFO      Application started / page reloaded
+2026-08-10 16:53:27  INFO      Application started / page reloaded
+2026-08-10 16:53:27  INFO      Prediction request: printer=closed, material=PLA+, layer=0.3mm, infill=80%, pattern=grid, speed=50mm/s
+2026-08-10 16:53:27  INFO      Prediction success: printer=closed, material=PLA+, layer=0.3mm, infill=80%, pattern=grid, speed=50mm/s → roughness=6.9072 µm (target=5.0000 µm)
+2026-08-10 16:54:26  INFO      Application started / page reloaded
+2026-08-10 16:56:28  INFO      Application started / page reloaded
+2026-08-10 16:57:39  INFO      Application started / page reloaded
+2026-08-10 16:58:51  INFO      Application started / page reloaded

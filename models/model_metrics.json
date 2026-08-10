@@ -1,0 +1,37 @@
+{
+  "model_type": "RandomForestRegressor",
+  "random_state": 42,
+  "features": [
+    "printer_type",
+    "material",
+    "infill_pattern",
+    "layer_thickness_mm",
+    "infill_density_pct",
+    "speed_mm_s"
+  ],
+  "target": "roughness_avg_um",
+  "total_cleaned_records": 500,
+  "records_used_for_modeling": 483,
+  "excluded_invalid_roughness": 17,
+  "training_records": 386,
+  "testing_records": 97,
+  "baseline": {
+    "strategy": "mean",
+    "mae": 1.867589,
+    "rmse": 2.1637,
+    "r2": -0.013143
+  },
+  "random_forest": {
+    "n_estimators": 200,
+    "mae": 0.820782,
+    "rmse": 1.130489,
+    "r2": 0.723427
+  },
+  "cross_validation": {
+    "n_splits": 5,
+    "shuffle": true,
+    "mae": 0.779931,
+    "rmse": 1.066312,
+    "r2": 0.730086
+  }
+}

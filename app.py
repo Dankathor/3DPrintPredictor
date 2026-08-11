@@ -61,7 +61,7 @@ page = st.sidebar.radio(
 
 # Database helpers
 
-git status@st.cache_resource
+@st.cache_resource
 def load_model():
     """Load the trained pipeline from disk once and cache it for the session."""
     if not MODEL_PATH.exists():

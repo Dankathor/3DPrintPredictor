@@ -126,4 +126,4 @@ with sqlite3.connect(DB_PATH) as conn:
 print(f"\nDatabase saved to: {DB_PATH.resolve()}")
 print("\n" + "=" * 60)
 print("Database build complete.")
-print("=" * 60)
+print("=" * 60) 

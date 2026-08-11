@@ -1,14 +1,7 @@
 """
-build_database.py
------------------
-Builds the SQLite database used by the 3D Print Quality Predictor.
-
 The script loads the cleaned CSV, writes all cleaned records to print_records,
 creates indexes used by the Streamlit filters, and validates the resulting
 database.
-
-Run from the project root:
-    python src/build_database.py
 """
 
 import pathlib

@@ -306,9 +306,10 @@ def render_data_explorer():
 
     # Chart 1 — Bar chart: average roughness by material
     avg_by_material = (
-        valid_df.groupby("material", as_index=False)["roughness_avg_um"]
+        valid_df.groupby("material")["roughness_avg_um"]
         .mean()
-        .sort_values("roughness_avg_um", ascending=False)
+        .reset_index()
+        .sort_values(by="roughness_avg_um", ascending=False)
     )
     fig1 = px.bar(
         avg_by_material,
@@ -639,7 +640,7 @@ def render_model_performance():
     bands = [0.5, 1.0, 1.5, 2.0]
     band_cols = st.columns(len(bands))
     for col, band in zip(band_cols, bands):
-        within = int((preds["absolute_error_um"] <= band).sum())
+        within = (preds["absolute_error_um"] <= band).sum()
         col.metric(f"Within ±{band} µm", f"{within}/{n}", f"{100*within/n:.1f}%")
 
     st.markdown("---")
